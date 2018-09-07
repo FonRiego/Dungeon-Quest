@@ -27,6 +27,7 @@ var drawBoard = function () {
   $('#newboard').append(container);
 }
 
+
 $(document).ready(function() {
   drawBoard();
   var tiles = startingTiles;
@@ -34,10 +35,9 @@ $(document).ready(function() {
   var events = startingEvents
   var player = new Player(13, '<div class="meeple-icon"><img src="./images/meeple-red.svg" width="40px"/></div>');
   player.currentPositionMeeple();
-  $("#player-name").html("Name:  " + player.name);
-  $("#player-health").html("Health:  " + player.health);
-  $("#player-gold").html("Gold:  " + player.gold);
-  $("#current-turn").html("Turn:  " + player.currentTurn);
+  $("#player-name").html("<span class='name'> Name:  " + player.name + "</span>");
+  $("#player-health").html("<span class='health'> Health:  " + player.health + "</span>")
+  $("#player-gold").html("<span class='gold'> Gold:  " + player.gold + "</span>")
 
   var turn = function (){
     player.removingSuggestions();
@@ -58,7 +58,7 @@ $(document).ready(function() {
       player.updatePositionNumbers();
       player.updateAdjacentTiles(tiles);
       player.event(events);
-      // player.checkIfEnds(this);
+      player.checkDeath();
       turn();
     });
 }

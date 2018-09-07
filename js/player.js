@@ -232,6 +232,7 @@ Player.prototype.event = function (events) {
 };
 
 Player.prototype.fillModal = function (text, result) {
+  $(".modal-content").empty();
   $(".modal-content").append('<span class="close">&times;</span>')
   $(".modal-content").append(text)
   $(".modal-content").append(result)
@@ -251,22 +252,15 @@ Player.prototype.displayStats = function () {
   if (this.gold < 0) {
     this.gold = 0;
   };
-  $("#player-health").html("Health:  " + this.health);
-  $("#player-gold").html("Gold:  " + this.gold);
+  $("#player-health").html("<span class='health'> Health:  " + this.health + "</span>");
+  $("#player-gold").html("<span class='gold'> Gold:  " + this.gold + "</span>");
 };
 
-Player.prototype.checkIfEnds = function () {
+Player.prototype.checkDeath = function () {
   if (this.health <= 0) {
       this.status = "death";
       var text = '<p>Your bones will rest here forever...</p>'
       var result = '<h2>DEATH!!!</h2>'
       this.fillModal(text, result);
-  } else if (this.status === "out") {
-      this.status = "out";
-      var text = '<p>Fresh air again, let\'s see the loot you got:</p>'
-      var result = '<h2>' + this.gold + ' gold pieces.</h2>'
-      this.fillModal(text, result);
-  } else {
-    // turn()
-  }
-}
+  };
+};

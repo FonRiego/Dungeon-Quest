@@ -41,7 +41,7 @@ var startingEvents = [
    },
    {eventNumber: 7,
     eventResult: "+ 100 Gold",
-    eventText: "You find an adventurer's dead body. He won´t need his playerScope.gold anymore",
+    eventText: "You find an adventurer's dead body. He won´t need his gold anymore",
     eventAplication: function(playerScope) {
      playerScope.gold += 100 }
    },
@@ -66,7 +66,7 @@ var startingEvents = [
    },
    {eventNumber: 11,
     eventResult: "+ 3 Health       + 450 Gold",
-    eventText: "You find what seems to be the personal room of somebody important here. Health potions and jewels for everyone!",
+    eventText: "You find what seems to be the personal room of somebody important here. Health potions and jewels for all!",
     eventAplication: function(playerScope) {
      playerScope.health += 3
      playerScope.gold += 450 }

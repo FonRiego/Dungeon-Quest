@@ -103,132 +103,132 @@ var startingRooms = [
     east: "door",
     south: "blocked",
     west: "door"
-  },
-  {
-    id: 16,
-    north: "door",
-    east: "door",
-    south: "cave",
-    west: "blocked"
-  },
-  {
-    id: 17,
-    north: "door",
-    east: "door",
-    south: "blocked",
-    west: "cave"
-  },
-  {
-    id: 18,
-    north: "door",
-    east: "door",
-    south: "blocked",
-    west: "blocked"
-  },
-  {
-    id: 19,
-    north: "door",
-    east: "blocked",
-    south: "cave",
-    west: "door"
-  },
-  {
-    id: 20,
-    north: "door",
-    east: "cave",
-    south: "blocked",
-    west: "door"
-  },
-  {
-    id: 21,
-    north: "door",
-    east: "blocked",
-    south: "blocked",
-    west: "door"
-  },
-  {
-    id: 22,
-    north: "blocked",
-    east: "cave",
-    south: "door",
-    west: "door"
-  },
-  {
-    id: 23,
-    north: "cave",
-    east: "blocked",
-    south: "door",
-    west: "door"
-  },
-  {
-    id: 24,
-    north: "blocked",
-    east: "blocked",
-    south: "door",
-    west: "door"
-  },
-  {
-    id: 25,
-    north: "cave",
-    east: "door",
-    south: "door",
-    west: "blocked"
-  },
-  {
-    id: 26,
-    north: "blocked",
-    east: "door",
-    south: "door",
-    west: "cave"
-  },
-  {
-    id: 27,
-    north: "blocked",
-    east: "door",
-    south: "door",
-    west: "blocked"
-  },
-  {
-    id: 28,
-    north: "door",
-    east: "cave",
-    south: "door",
-    west: "blocked"
-  },
-  {
-    id: 29,
-    north: "door",
-    east: "blocked",
-    south: "door",
-    west: "cave"
-  },
-  {
-    id: 30,
-    north: "door",
-    east: "blocked",
-    south: "door",
-    west: "blocked"
-  },
-  {
-    id: 31,
-    north: "blocked",
-    east: "door",
-    south: "cave",
-    west: "door"
-  },
-  {
-    id: 32,
-    north: "cave",
-    east: "door",
-    south: "blocked",
-    west: "door"
-  },
-  {
-    id: 33,
-    north: "blocked",
-    east: "door",
-    south: "blocked",
-    west: "door"
   }
+  // {
+  //   id: 16,
+  //   north: "door",
+  //   east: "door",
+  //   south: "cave",
+  //   west: "blocked"
+  // },
+  // {
+  //   id: 17,
+  //   north: "door",
+  //   east: "door",
+  //   south: "blocked",
+  //   west: "cave"
+  // },
+  // {
+  //   id: 18,
+  //   north: "door",
+  //   east: "door",
+  //   south: "blocked",
+  //   west: "blocked"
+  // },
+  // {
+  //   id: 19,
+  //   north: "door",
+  //   east: "blocked",
+  //   south: "cave",
+  //   west: "door"
+  // },
+  // {
+  //   id: 20,
+  //   north: "door",
+  //   east: "cave",
+  //   south: "blocked",
+  //   west: "door"
+  // },
+  // {
+  //   id: 21,
+  //   north: "door",
+  //   east: "blocked",
+  //   south: "blocked",
+  //   west: "door"
+  // },
+  // {
+  //   id: 22,
+  //   north: "blocked",
+  //   east: "cave",
+  //   south: "door",
+  //   west: "door"
+  // },
+  // {
+  //   id: 23,
+  //   north: "cave",
+  //   east: "blocked",
+  //   south: "door",
+  //   west: "door"
+  // },
+  // {
+  //   id: 24,
+  //   north: "blocked",
+  //   east: "blocked",
+  //   south: "door",
+  //   west: "door"
+  // },
+  // {
+  //   id: 25,
+  //   north: "cave",
+  //   east: "door",
+  //   south: "door",
+  //   west: "blocked"
+  // },
+  // {
+  //   id: 26,
+  //   north: "blocked",
+  //   east: "door",
+  //   south: "door",
+  //   west: "cave"
+  // },
+  // {
+  //   id: 27,
+  //   north: "blocked",
+  //   east: "door",
+  //   south: "door",
+  //   west: "blocked"
+  // },
+  // {
+  //   id: 28,
+  //   north: "door",
+  //   east: "cave",
+  //   south: "door",
+  //   west: "blocked"
+  // },
+  // {
+  //   id: 29,
+  //   north: "door",
+  //   east: "blocked",
+  //   south: "door",
+  //   west: "cave"
+  // },
+  // {
+  //   id: 30,
+  //   north: "door",
+  //   east: "blocked",
+  //   south: "door",
+  //   west: "blocked"
+  // },
+  // {
+  //   id: 31,
+  //   north: "blocked",
+  //   east: "door",
+  //   south: "cave",
+  //   west: "door"
+  // },
+  // {
+  //   id: 32,
+  //   north: "cave",
+  //   east: "door",
+  //   south: "blocked",
+  //   west: "door"
+  // },
+  // {
+  //   id: 33,
+  //   north: "blocked",
+  //   east: "door",
+  //   south: "blocked",
+  //   west: "door"
+  // }
   
 ];

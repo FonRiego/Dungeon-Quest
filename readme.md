@@ -12,7 +12,9 @@ Player.prototype.showingSuggestions = function () {
       $("#tile-" + this.suggestedTiles[i]).addClass("suggested");
     }
   }
-};-------> La clase .suggested pone un borde en verde en las casillas a las que podemor ir.
+};
+
+-------> La clase .suggested pone un borde en verde en las casillas a las que podemos ir.
 
 -Principales retos: mejorar la estructura del turno, añadir opción para varios jugadores y hacer el juego más interactivo.
 

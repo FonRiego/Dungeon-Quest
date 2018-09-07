@@ -1,0 +1,125 @@
+body {
+  position: relative;
+  background-color: rgb(107, 104, 104)
+}
+.board {
+  width: 800px;
+  height: 700px;
+  background-color: rgb(66, 63, 63);
+  border: 10px solid, black;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  float: left;
+  margin: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.unexplored {
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  background-color: sandybrown;
+  border: 1px solid black;
+}
+.entry {
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  background-color: #612D07;
+  border: 1px solid black;
+}
+
+.chamber {
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  background-color: yellow;
+  border: 1px solid black;
+}
+
+.interfaces {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.player-interface {
+  box-sizing: border-box;
+  font-size: 2rem;
+  width: 400px;
+  border: 5px solid rgb(0, 4, 248);
+  background-color: rgb(4, 191, 216);
+  margin: 25px 0 25px 50px;
+  float: right;
+  margin: 300px 20px;;
+}
+
+.meeple {
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.meeple img {
+  width: 40px;
+  padding: 20px;
+  z-index: 1;
+}
+
+.explored {
+  box-sizing: border-box;
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+}
+
+.suggested {
+  box-sizing: border-box;
+  border: 7px solid green;
+}
+
+.event-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 800px; 
+  height: 800px;
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.4); 
+}
+
+.modal-content {
+  background-color: #e2d171;
+  margin: auto;
+  padding: 20px;
+  border: 5px solid rgb(255, 123, 0);
+  width: 80%;
+  font-size: 20px;
+}
+.modal-content h2 {
+  margin: 10px 20px;
+  font-size: 40px;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
